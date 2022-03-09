@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/hfwang/dev/projects/mprpc/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/mprpc.dir/MpRpcApplication.cc.o -c /home/hfwang/dev/projects/mprpc/src/MpRpcApplication.cc",
+  "file": "/home/hfwang/dev/projects/mprpc/src/MpRpcApplication.cc"
+},
+{
+  "directory": "/home/hfwang/dev/projects/mprpc/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/mprpc.dir/MpRpcChannel.cc.o -c /home/hfwang/dev/projects/mprpc/src/MpRpcChannel.cc",
+  "file": "/home/hfwang/dev/projects/mprpc/src/MpRpcChannel.cc"
+},
+{
+  "directory": "/home/hfwang/dev/projects/mprpc/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/mprpc.dir/MpRpcConfig.cc.o -c /home/hfwang/dev/projects/mprpc/src/MpRpcConfig.cc",
+  "file": "/home/hfwang/dev/projects/mprpc/src/MpRpcConfig.cc"
+},
+{
+  "directory": "/home/hfwang/dev/projects/mprpc/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/mprpc.dir/MpRpcController.cc.o -c /home/hfwang/dev/projects/mprpc/src/MpRpcController.cc",
+  "file": "/home/hfwang/dev/projects/mprpc/src/MpRpcController.cc"
+},
+{
+  "directory": "/home/hfwang/dev/projects/mprpc/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/mprpc.dir/MpRpcLogger.cc.o -c /home/hfwang/dev/projects/mprpc/src/MpRpcLogger.cc",
+  "file": "/home/hfwang/dev/projects/mprpc/src/MpRpcLogger.cc"
+},
+{
+  "directory": "/home/hfwang/dev/projects/mprpc/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/mprpc.dir/RpcHeader.pb.cc.o -c /home/hfwang/dev/projects/mprpc/src/RpcHeader.pb.cc",
+  "file": "/home/hfwang/dev/projects/mprpc/src/RpcHeader.pb.cc"
+},
+{
+  "directory": "/home/hfwang/dev/projects/mprpc/build/src",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/mprpc.dir/RpcProvider.cc.o -c /home/hfwang/dev/projects/mprpc/src/RpcProvider.cc",
+  "file": "/home/hfwang/dev/projects/mprpc/src/RpcProvider.cc"
+},
+{
+  "directory": "/home/hfwang/dev/projects/mprpc/build/example/callee",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/provider.dir/userservice.cc.o -c /home/hfwang/dev/projects/mprpc/example/callee/userservice.cc",
+  "file": "/home/hfwang/dev/projects/mprpc/example/callee/userservice.cc"
+},
+{
+  "directory": "/home/hfwang/dev/projects/mprpc/build/example/callee",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/hfwang/dev/projects/mprpc/example/user.pb.cc",
+  "file": "/home/hfwang/dev/projects/mprpc/example/user.pb.cc"
+},
+{
+  "directory": "/home/hfwang/dev/projects/mprpc/build/example/caller",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/consumer.dir/calluserservice.cc.o -c /home/hfwang/dev/projects/mprpc/example/caller/calluserservice.cc",
+  "file": "/home/hfwang/dev/projects/mprpc/example/caller/calluserservice.cc"
+},
+{
+  "directory": "/home/hfwang/dev/projects/mprpc/build/example/caller",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/consumer.dir/__/user.pb.cc.o -c /home/hfwang/dev/projects/mprpc/example/user.pb.cc",
+  "file": "/home/hfwang/dev/projects/mprpc/example/user.pb.cc"
+}
+]
