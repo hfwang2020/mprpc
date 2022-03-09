@@ -13,5 +13,6 @@ example/caller/CMakeFiles/consumer.dir/calluserservice.cc.o: ../src/include/MpRp
 example/caller/CMakeFiles/consumer.dir/calluserservice.cc.o: ../src/include/MpRpcLogger.h
 example/caller/CMakeFiles/consumer.dir/calluserservice.cc.o: ../src/include/RpcHeader.pb.h
 example/caller/CMakeFiles/consumer.dir/calluserservice.cc.o: ../src/include/RpcProvider.h
+example/caller/CMakeFiles/consumer.dir/calluserservice.cc.o: ../src/include/ZookeeperUtil.h
 example/caller/CMakeFiles/consumer.dir/calluserservice.cc.o: ../example/caller/calluserservice.cc
 

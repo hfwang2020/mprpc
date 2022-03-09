@@ -13,5 +13,6 @@ example/callee/CMakeFiles/provider.dir/userservice.cc.o: ../src/include/MpRpcCon
 example/callee/CMakeFiles/provider.dir/userservice.cc.o: ../src/include/MpRpcLogger.h
 example/callee/CMakeFiles/provider.dir/userservice.cc.o: ../src/include/RpcHeader.pb.h
 example/callee/CMakeFiles/provider.dir/userservice.cc.o: ../src/include/RpcProvider.h
+example/callee/CMakeFiles/provider.dir/userservice.cc.o: ../src/include/ZookeeperUtil.h
 example/callee/CMakeFiles/provider.dir/userservice.cc.o: ../example/callee/userservice.cc
 

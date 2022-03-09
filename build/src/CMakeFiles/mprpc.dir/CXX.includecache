@@ -29,6 +29,8 @@ RpcProvider.h
 ../src/include/RpcProvider.h
 MpRpcLogger.h
 ../src/include/MpRpcLogger.h
+ZookeeperUtil.h
+../src/include/ZookeeperUtil.h
 
 ../src/include/MpRpcChannel.h
 google/protobuf/service.h
@@ -104,46 +106,12 @@ muduo/net/InetAddress.h
 unordered_map
 -
 
-/home/hfwang/dev/projects/mprpc/src/MpRpcApplication.cc
-MpRpcApplication.h
-/home/hfwang/dev/projects/mprpc/src/MpRpcApplication.h
-iostream
+../src/include/ZookeeperUtil.h
+semaphore.h
 -
-unistd.h
--
-
-/home/hfwang/dev/projects/mprpc/src/MpRpcChannel.cc
-MpRpcChannel.h
-/home/hfwang/dev/projects/mprpc/src/MpRpcChannel.h
-RpcHeader.pb.h
-/home/hfwang/dev/projects/mprpc/src/RpcHeader.pb.h
-MpRpcApplication.h
-/home/hfwang/dev/projects/mprpc/src/MpRpcApplication.h
-MpRpcController.h
-/home/hfwang/dev/projects/mprpc/src/MpRpcController.h
-sys/types.h
--
-sys/socket.h
--
-arpa/inet.h
--
-netinet/in.h
+zookeeper/zookeeper.h
 -
 string
--
-errno.h
--
-unistd.h
--
-
-/home/hfwang/dev/projects/mprpc/src/MpRpcLogger.cc
-MpRpcLogger.h
-/home/hfwang/dev/projects/mprpc/src/MpRpcLogger.h
-time.h
-/home/hfwang/dev/projects/mprpc/src/time.h
-unistd.h
-/home/hfwang/dev/projects/mprpc/src/unistd.h
-iostream
 -
 
 /home/hfwang/dev/projects/mprpc/src/RpcProvider.cc
@@ -159,4 +127,10 @@ google/protobuf/descriptor.h
 /home/hfwang/dev/projects/mprpc/src/google/protobuf/descriptor.h
 RpcHeader.pb.h
 /home/hfwang/dev/projects/mprpc/src/RpcHeader.pb.h
+
+/home/hfwang/dev/projects/mprpc/src/ZookeeperUtil.cc
+ZookeeperUtil.h
+/home/hfwang/dev/projects/mprpc/src/ZookeeperUtil.h
+MpRpcApplication.h
+/home/hfwang/dev/projects/mprpc/src/MpRpcApplication.h
 

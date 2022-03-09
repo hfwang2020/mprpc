@@ -30,7 +30,6 @@ void RpcProvider::NotifyService(google::protobuf::Service* service) {
     }
 
     m_serviceMap.insert({ service_name, service_info });
-    
 }
 
 void RpcProvider::Run() {
@@ -57,6 +56,19 @@ void RpcProvider::Run() {
     // 设置muduo库的线程数量
     server.setThreadNum(4);
 
+    // 服务注册到zk上
+    ZkClient zk_cli;
+    zk_cli.start();
+    for (auto& sp : m_serviceMap) {
+        std::string service_path = "/" + sp.first;
+        zk_cli.create(service_path.c_str(), nullptr, 0);
+        for (auto& mp : sp.second.m_methodMap) {
+            std::string method_path = service_path + "/" + mp.first;
+            char method_path_data[128] = { 0 };
+            sprintf(method_path_data, "%s:%d", ip.c_str(), port);
+            zk_cli.create(method_path.c_str(), method_path_data, strlen(method_path_data), ZOO_EPHEMERAL);
+        }
+    }
     server.start();
 
     m_eventLoop.loop();

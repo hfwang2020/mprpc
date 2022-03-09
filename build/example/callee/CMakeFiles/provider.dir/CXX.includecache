@@ -69,6 +69,8 @@ RpcProvider.h
 ../src/include/RpcProvider.h
 MpRpcLogger.h
 ../src/include/MpRpcLogger.h
+ZookeeperUtil.h
+../src/include/ZookeeperUtil.h
 
 ../src/include/MpRpcChannel.h
 google/protobuf/service.h
@@ -142,6 +144,14 @@ muduo/net/EventLoop.h
 muduo/net/InetAddress.h
 -
 unordered_map
+-
+
+../src/include/ZookeeperUtil.h
+semaphore.h
+-
+zookeeper/zookeeper.h
+-
+string
 -
 
 /home/hfwang/dev/projects/mprpc/example/callee/userservice.cc

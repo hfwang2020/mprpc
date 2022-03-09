@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mprpc.dir/MpRpcLogger.cc.o"
   "CMakeFiles/mprpc.dir/RpcHeader.pb.cc.o"
   "CMakeFiles/mprpc.dir/RpcProvider.cc.o"
+  "CMakeFiles/mprpc.dir/ZookeeperUtil.cc.o"
 )
 
 # Per-language clean rules from dependency scanning.

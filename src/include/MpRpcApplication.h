@@ -5,6 +5,7 @@
 #include "RpcHeader.pb.h"
 #include "RpcProvider.h"
 #include "MpRpcLogger.h"
+#include "ZookeeperUtil.h"
 
 // mprpc框架的基础类 负责框架初始化  单例模式
 class MpRpcApplication

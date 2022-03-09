@@ -10,6 +10,7 @@ src/CMakeFiles/mprpc.dir/MpRpcApplication.cc.o
  ../src/include/MpRpcLogger.h
  ../src/include/RpcHeader.pb.h
  ../src/include/RpcProvider.h
+ ../src/include/ZookeeperUtil.h
  /home/hfwang/dev/projects/mprpc/src/MpRpcApplication.cc
 src/CMakeFiles/mprpc.dir/MpRpcChannel.cc.o
  ../src/include/LogQueue.h
@@ -20,6 +21,7 @@ src/CMakeFiles/mprpc.dir/MpRpcChannel.cc.o
  ../src/include/MpRpcLogger.h
  ../src/include/RpcHeader.pb.h
  ../src/include/RpcProvider.h
+ ../src/include/ZookeeperUtil.h
  /home/hfwang/dev/projects/mprpc/src/MpRpcChannel.cc
 src/CMakeFiles/mprpc.dir/MpRpcConfig.cc.o
  ../src/include/MpRpcConfig.h
@@ -43,4 +45,16 @@ src/CMakeFiles/mprpc.dir/RpcProvider.cc.o
  ../src/include/MpRpcLogger.h
  ../src/include/RpcHeader.pb.h
  ../src/include/RpcProvider.h
+ ../src/include/ZookeeperUtil.h
  /home/hfwang/dev/projects/mprpc/src/RpcProvider.cc
+src/CMakeFiles/mprpc.dir/ZookeeperUtil.cc.o
+ ../src/include/LogQueue.h
+ ../src/include/MpRpcApplication.h
+ ../src/include/MpRpcChannel.h
+ ../src/include/MpRpcConfig.h
+ ../src/include/MpRpcController.h
+ ../src/include/MpRpcLogger.h
+ ../src/include/RpcHeader.pb.h
+ ../src/include/RpcProvider.h
+ ../src/include/ZookeeperUtil.h
+ /home/hfwang/dev/projects/mprpc/src/ZookeeperUtil.cc
