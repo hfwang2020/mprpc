@@ -4,10 +4,11 @@
 #include <functional>
 #include "google/protobuf/descriptor.h"
 #include "RpcHeader.pb.h"
+#include "ZookeeperUtil.h"
 
-// 发布服务
+// 发布服务 传入服务子类 把注册的服务存入对象内的map
 void RpcProvider::NotifyService(google::protobuf::Service* service) {
-
+    
     ServiceInfo service_info;
     service_info.m_service = service;
 
@@ -17,10 +18,10 @@ void RpcProvider::NotifyService(google::protobuf::Service* service) {
     std::string service_name = pserviceDesc->name();
 
     std::cout << "notify service: " << service_name << std::endl;
-
+    
     // 获取服务对象service方法的数量
     int methodCnt = pserviceDesc->method_count();
-
+    
     for (int i = 0; i < methodCnt; i++) {
         // 获取服务对象指定下标的服务方法的描述
         const google::protobuf::MethodDescriptor* pmethodDesc = pserviceDesc->method(i);
@@ -114,10 +115,10 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn,
         service_name = rpc_header.service_name();
         method_name = rpc_header.method_name();
         args_size = rpc_header.args_size();
-
     }
     else {
         std::cout << "parse header error" << std::endl;
+        return;
     }
 
     std::string args_str = recv_buf.substr(4 + header_size, args_size);
@@ -135,9 +136,7 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn,
     // 获取service对象
     auto service_iter = m_serviceMap.find(service_name);
     if (service_iter == m_serviceMap.end()) {
-
         std::cout << "service name is not exist!" << std::endl;
-
         return;
     }
     google::protobuf::Service* service = service_iter->second.m_service;
@@ -168,10 +167,8 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn,
             &RpcProvider::sendRpcResponse,
             conn,
             response);
-
+    
     service->CallMethod(method_des, nullptr, request, response, done);
-
-
 };
 
 

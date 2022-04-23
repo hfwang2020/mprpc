@@ -5,7 +5,7 @@
 void MpRpcConfig::LoadConfigFile(const char* config_file) {
     FILE* pf = fopen(config_file, "r");
     if (pf == nullptr) {
-        std::cout << "config file is not exist！" << std::endl;
+        std::cout << "config file is not exist!" << std::endl;
         exit(EXIT_FAILURE);
     }
 

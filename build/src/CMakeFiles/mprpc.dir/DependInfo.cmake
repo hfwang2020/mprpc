@@ -4,14 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hfwang/dev/projects/mprpc/src/MpRpcApplication.cc" "/home/hfwang/dev/projects/mprpc/build/src/CMakeFiles/mprpc.dir/MpRpcApplication.cc.o"
-  "/home/hfwang/dev/projects/mprpc/src/MpRpcChannel.cc" "/home/hfwang/dev/projects/mprpc/build/src/CMakeFiles/mprpc.dir/MpRpcChannel.cc.o"
-  "/home/hfwang/dev/projects/mprpc/src/MpRpcConfig.cc" "/home/hfwang/dev/projects/mprpc/build/src/CMakeFiles/mprpc.dir/MpRpcConfig.cc.o"
-  "/home/hfwang/dev/projects/mprpc/src/MpRpcController.cc" "/home/hfwang/dev/projects/mprpc/build/src/CMakeFiles/mprpc.dir/MpRpcController.cc.o"
-  "/home/hfwang/dev/projects/mprpc/src/MpRpcLogger.cc" "/home/hfwang/dev/projects/mprpc/build/src/CMakeFiles/mprpc.dir/MpRpcLogger.cc.o"
-  "/home/hfwang/dev/projects/mprpc/src/RpcHeader.pb.cc" "/home/hfwang/dev/projects/mprpc/build/src/CMakeFiles/mprpc.dir/RpcHeader.pb.cc.o"
-  "/home/hfwang/dev/projects/mprpc/src/RpcProvider.cc" "/home/hfwang/dev/projects/mprpc/build/src/CMakeFiles/mprpc.dir/RpcProvider.cc.o"
-  "/home/hfwang/dev/projects/mprpc/src/ZookeeperUtil.cc" "/home/hfwang/dev/projects/mprpc/build/src/CMakeFiles/mprpc.dir/ZookeeperUtil.cc.o"
+  "/home/hfwang/dev/projects/LIGHT_RPC/src/MpRpcApplication.cc" "/home/hfwang/dev/projects/LIGHT_RPC/build/src/CMakeFiles/mprpc.dir/MpRpcApplication.cc.o"
+  "/home/hfwang/dev/projects/LIGHT_RPC/src/MpRpcChannel.cc" "/home/hfwang/dev/projects/LIGHT_RPC/build/src/CMakeFiles/mprpc.dir/MpRpcChannel.cc.o"
+  "/home/hfwang/dev/projects/LIGHT_RPC/src/MpRpcConfig.cc" "/home/hfwang/dev/projects/LIGHT_RPC/build/src/CMakeFiles/mprpc.dir/MpRpcConfig.cc.o"
+  "/home/hfwang/dev/projects/LIGHT_RPC/src/MpRpcController.cc" "/home/hfwang/dev/projects/LIGHT_RPC/build/src/CMakeFiles/mprpc.dir/MpRpcController.cc.o"
+  "/home/hfwang/dev/projects/LIGHT_RPC/src/MpRpcLogger.cc" "/home/hfwang/dev/projects/LIGHT_RPC/build/src/CMakeFiles/mprpc.dir/MpRpcLogger.cc.o"
+  "/home/hfwang/dev/projects/LIGHT_RPC/src/RpcHeader.pb.cc" "/home/hfwang/dev/projects/LIGHT_RPC/build/src/CMakeFiles/mprpc.dir/RpcHeader.pb.cc.o"
+  "/home/hfwang/dev/projects/LIGHT_RPC/src/RpcProvider.cc" "/home/hfwang/dev/projects/LIGHT_RPC/build/src/CMakeFiles/mprpc.dir/RpcProvider.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,6 +18,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src/include"
   "../example"
+  "../include"
   )
 
 # Targets to which this target links.

@@ -1,4 +1,4 @@
-# Install script for directory: /home/hfwang/dev/projects/mprpc/src
+# Install script for directory: /home/hfwang/dev/projects/LIGHT_RPC/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

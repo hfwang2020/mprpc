@@ -27,8 +27,8 @@ void MpRpcController::StartCancel() {}
 bool MpRpcController::IsCanceled() const {
     return false;
 }
+
 void MpRpcController::NotifyOnCancel(google::protobuf::Closure* callback) {
     
 }
-
 

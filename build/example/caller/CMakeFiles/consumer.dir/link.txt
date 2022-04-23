@@ -1,1 +1,0 @@
-/bin/x86_64-linux-gnu-g++-9  -g  -rdynamic CMakeFiles/consumer.dir/calluserservice.cc.o CMakeFiles/consumer.dir/__/user.pb.cc.o  -o ../../../bin/consumer   -L/home/hfwang/dev/projects/mprpc/lib  -Wl,-rpath,/home/hfwang/dev/projects/mprpc/lib ../../../lib/libmprpc.a -lprotobuf -lmuduo_net -lmuduo_base -lpthread -lzookeeper_mt 

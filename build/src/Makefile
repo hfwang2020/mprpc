@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hfwang/dev/projects/mprpc
+CMAKE_SOURCE_DIR = /home/hfwang/dev/projects/LIGHT_RPC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hfwang/dev/projects/mprpc/build
+CMAKE_BINARY_DIR = /home/hfwang/dev/projects/LIGHT_RPC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hfwang/dev/projects/mprpc/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hfwang/dev/projects/mprpc/build/CMakeFiles /home/hfwang/dev/projects/mprpc/build/src/CMakeFiles/progress.marks
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hfwang/dev/projects/mprpc/build/CMakeFiles 0
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hfwang/dev/projects/LIGHT_RPC/build/CMakeFiles /home/hfwang/dev/projects/LIGHT_RPC/build/src/CMakeFiles/progress.marks
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hfwang/dev/projects/LIGHT_RPC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hfwang/dev/projects/mprpc/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/mprpc.dir/rule:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/mprpc.dir/rule
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/mprpc.dir/rule
 .PHONY : src/CMakeFiles/mprpc.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ mprpc: src/CMakeFiles/mprpc.dir/rule
 
 # fast build rule for target.
 mprpc/fast:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
 .PHONY : mprpc/fast
 
 MpRpcApplication.o: MpRpcApplication.cc.o
@@ -131,7 +131,7 @@ MpRpcApplication.o: MpRpcApplication.cc.o
 
 # target to build an object file
 MpRpcApplication.cc.o:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcApplication.cc.o
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcApplication.cc.o
 .PHONY : MpRpcApplication.cc.o
 
 MpRpcApplication.i: MpRpcApplication.cc.i
@@ -140,7 +140,7 @@ MpRpcApplication.i: MpRpcApplication.cc.i
 
 # target to preprocess a source file
 MpRpcApplication.cc.i:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcApplication.cc.i
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcApplication.cc.i
 .PHONY : MpRpcApplication.cc.i
 
 MpRpcApplication.s: MpRpcApplication.cc.s
@@ -149,7 +149,7 @@ MpRpcApplication.s: MpRpcApplication.cc.s
 
 # target to generate assembly for a file
 MpRpcApplication.cc.s:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcApplication.cc.s
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcApplication.cc.s
 .PHONY : MpRpcApplication.cc.s
 
 MpRpcChannel.o: MpRpcChannel.cc.o
@@ -158,7 +158,7 @@ MpRpcChannel.o: MpRpcChannel.cc.o
 
 # target to build an object file
 MpRpcChannel.cc.o:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcChannel.cc.o
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcChannel.cc.o
 .PHONY : MpRpcChannel.cc.o
 
 MpRpcChannel.i: MpRpcChannel.cc.i
@@ -167,7 +167,7 @@ MpRpcChannel.i: MpRpcChannel.cc.i
 
 # target to preprocess a source file
 MpRpcChannel.cc.i:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcChannel.cc.i
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcChannel.cc.i
 .PHONY : MpRpcChannel.cc.i
 
 MpRpcChannel.s: MpRpcChannel.cc.s
@@ -176,7 +176,7 @@ MpRpcChannel.s: MpRpcChannel.cc.s
 
 # target to generate assembly for a file
 MpRpcChannel.cc.s:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcChannel.cc.s
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcChannel.cc.s
 .PHONY : MpRpcChannel.cc.s
 
 MpRpcConfig.o: MpRpcConfig.cc.o
@@ -185,7 +185,7 @@ MpRpcConfig.o: MpRpcConfig.cc.o
 
 # target to build an object file
 MpRpcConfig.cc.o:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcConfig.cc.o
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcConfig.cc.o
 .PHONY : MpRpcConfig.cc.o
 
 MpRpcConfig.i: MpRpcConfig.cc.i
@@ -194,7 +194,7 @@ MpRpcConfig.i: MpRpcConfig.cc.i
 
 # target to preprocess a source file
 MpRpcConfig.cc.i:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcConfig.cc.i
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcConfig.cc.i
 .PHONY : MpRpcConfig.cc.i
 
 MpRpcConfig.s: MpRpcConfig.cc.s
@@ -203,7 +203,7 @@ MpRpcConfig.s: MpRpcConfig.cc.s
 
 # target to generate assembly for a file
 MpRpcConfig.cc.s:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcConfig.cc.s
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcConfig.cc.s
 .PHONY : MpRpcConfig.cc.s
 
 MpRpcController.o: MpRpcController.cc.o
@@ -212,7 +212,7 @@ MpRpcController.o: MpRpcController.cc.o
 
 # target to build an object file
 MpRpcController.cc.o:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcController.cc.o
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcController.cc.o
 .PHONY : MpRpcController.cc.o
 
 MpRpcController.i: MpRpcController.cc.i
@@ -221,7 +221,7 @@ MpRpcController.i: MpRpcController.cc.i
 
 # target to preprocess a source file
 MpRpcController.cc.i:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcController.cc.i
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcController.cc.i
 .PHONY : MpRpcController.cc.i
 
 MpRpcController.s: MpRpcController.cc.s
@@ -230,7 +230,7 @@ MpRpcController.s: MpRpcController.cc.s
 
 # target to generate assembly for a file
 MpRpcController.cc.s:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcController.cc.s
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcController.cc.s
 .PHONY : MpRpcController.cc.s
 
 MpRpcLogger.o: MpRpcLogger.cc.o
@@ -239,7 +239,7 @@ MpRpcLogger.o: MpRpcLogger.cc.o
 
 # target to build an object file
 MpRpcLogger.cc.o:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcLogger.cc.o
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcLogger.cc.o
 .PHONY : MpRpcLogger.cc.o
 
 MpRpcLogger.i: MpRpcLogger.cc.i
@@ -248,7 +248,7 @@ MpRpcLogger.i: MpRpcLogger.cc.i
 
 # target to preprocess a source file
 MpRpcLogger.cc.i:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcLogger.cc.i
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcLogger.cc.i
 .PHONY : MpRpcLogger.cc.i
 
 MpRpcLogger.s: MpRpcLogger.cc.s
@@ -257,7 +257,7 @@ MpRpcLogger.s: MpRpcLogger.cc.s
 
 # target to generate assembly for a file
 MpRpcLogger.cc.s:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcLogger.cc.s
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/MpRpcLogger.cc.s
 .PHONY : MpRpcLogger.cc.s
 
 RpcHeader.pb.o: RpcHeader.pb.cc.o
@@ -266,7 +266,7 @@ RpcHeader.pb.o: RpcHeader.pb.cc.o
 
 # target to build an object file
 RpcHeader.pb.cc.o:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/RpcHeader.pb.cc.o
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/RpcHeader.pb.cc.o
 .PHONY : RpcHeader.pb.cc.o
 
 RpcHeader.pb.i: RpcHeader.pb.cc.i
@@ -275,7 +275,7 @@ RpcHeader.pb.i: RpcHeader.pb.cc.i
 
 # target to preprocess a source file
 RpcHeader.pb.cc.i:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/RpcHeader.pb.cc.i
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/RpcHeader.pb.cc.i
 .PHONY : RpcHeader.pb.cc.i
 
 RpcHeader.pb.s: RpcHeader.pb.cc.s
@@ -284,7 +284,7 @@ RpcHeader.pb.s: RpcHeader.pb.cc.s
 
 # target to generate assembly for a file
 RpcHeader.pb.cc.s:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/RpcHeader.pb.cc.s
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/RpcHeader.pb.cc.s
 .PHONY : RpcHeader.pb.cc.s
 
 RpcProvider.o: RpcProvider.cc.o
@@ -293,7 +293,7 @@ RpcProvider.o: RpcProvider.cc.o
 
 # target to build an object file
 RpcProvider.cc.o:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/RpcProvider.cc.o
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/RpcProvider.cc.o
 .PHONY : RpcProvider.cc.o
 
 RpcProvider.i: RpcProvider.cc.i
@@ -302,7 +302,7 @@ RpcProvider.i: RpcProvider.cc.i
 
 # target to preprocess a source file
 RpcProvider.cc.i:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/RpcProvider.cc.i
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/RpcProvider.cc.i
 .PHONY : RpcProvider.cc.i
 
 RpcProvider.s: RpcProvider.cc.s
@@ -311,35 +311,8 @@ RpcProvider.s: RpcProvider.cc.s
 
 # target to generate assembly for a file
 RpcProvider.cc.s:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/RpcProvider.cc.s
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/RpcProvider.cc.s
 .PHONY : RpcProvider.cc.s
-
-ZookeeperUtil.o: ZookeeperUtil.cc.o
-
-.PHONY : ZookeeperUtil.o
-
-# target to build an object file
-ZookeeperUtil.cc.o:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/ZookeeperUtil.cc.o
-.PHONY : ZookeeperUtil.cc.o
-
-ZookeeperUtil.i: ZookeeperUtil.cc.i
-
-.PHONY : ZookeeperUtil.i
-
-# target to preprocess a source file
-ZookeeperUtil.cc.i:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/ZookeeperUtil.cc.i
-.PHONY : ZookeeperUtil.cc.i
-
-ZookeeperUtil.s: ZookeeperUtil.cc.s
-
-.PHONY : ZookeeperUtil.s
-
-# target to generate assembly for a file
-ZookeeperUtil.cc.s:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/ZookeeperUtil.cc.s
-.PHONY : ZookeeperUtil.cc.s
 
 # Help Target
 help:
@@ -371,9 +344,6 @@ help:
 	@echo "... RpcProvider.o"
 	@echo "... RpcProvider.i"
 	@echo "... RpcProvider.s"
-	@echo "... ZookeeperUtil.o"
-	@echo "... ZookeeperUtil.i"
-	@echo "... ZookeeperUtil.s"
 .PHONY : help
 
 
@@ -385,6 +355,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hfwang/dev/projects/mprpc/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

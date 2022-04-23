@@ -52,7 +52,7 @@ void MpRpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
     send_rpc_str += args_str;
 
 
-    // 使用tcp编程 
+    // 使用tcp编程
     std::string ip = MpRpcApplication::GetInstance().GetConfig().Load("rpcserverip");
     uint16_t port = atoi(MpRpcApplication::GetInstance().GetConfig().Load("rpcserverport").c_str());
 

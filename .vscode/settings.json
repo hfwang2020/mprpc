@@ -1,6 +1,6 @@
 {
-    "cmake.configureOnOpen": true,
     "files.associations": {
+        "condition_variable": "cpp",
         "cctype": "cpp",
         "clocale": "cpp",
         "cmath": "cpp",
@@ -16,14 +16,15 @@
         "atomic": "cpp",
         "bit": "cpp",
         "*.tcc": "cpp",
+        "bitset": "cpp",
         "chrono": "cpp",
-        "condition_variable": "cpp",
+        "complex": "cpp",
         "cstdint": "cpp",
         "deque": "cpp",
+        "list": "cpp",
         "map": "cpp",
         "set": "cpp",
         "unordered_map": "cpp",
-        "unordered_set": "cpp",
         "vector": "cpp",
         "exception": "cpp",
         "algorithm": "cpp",
@@ -54,13 +55,9 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "thread": "cpp",
-        "typeinfo": "cpp",
-        "bitset": "cpp",
-        "complex": "cpp",
-        "list": "cpp",
         "cinttypes": "cpp",
         "typeindex": "cpp",
-        "variant": "cpp",
-        "*.inc": "cpp"
+        "typeinfo": "cpp",
+        "variant": "cpp"
     }
 }

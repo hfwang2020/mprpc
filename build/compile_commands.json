@@ -1,62 +1,37 @@
 [
 {
-  "directory": "/home/hfwang/dev/projects/mprpc/build/src",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/mprpc.dir/MpRpcApplication.cc.o -c /home/hfwang/dev/projects/mprpc/src/MpRpcApplication.cc",
-  "file": "/home/hfwang/dev/projects/mprpc/src/MpRpcApplication.cc"
+  "directory": "/home/hfwang/dev/projects/LIGHT_RPC/build/src",
+  "command": "/usr/bin/g++   -I/home/hfwang/dev/projects/LIGHT_RPC/src/include -I/home/hfwang/dev/projects/LIGHT_RPC/example -I/home/hfwang/dev/projects/LIGHT_RPC/include  -g   -o CMakeFiles/mprpc.dir/MpRpcApplication.cc.o -c /home/hfwang/dev/projects/LIGHT_RPC/src/MpRpcApplication.cc",
+  "file": "/home/hfwang/dev/projects/LIGHT_RPC/src/MpRpcApplication.cc"
 },
 {
-  "directory": "/home/hfwang/dev/projects/mprpc/build/src",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/mprpc.dir/MpRpcChannel.cc.o -c /home/hfwang/dev/projects/mprpc/src/MpRpcChannel.cc",
-  "file": "/home/hfwang/dev/projects/mprpc/src/MpRpcChannel.cc"
+  "directory": "/home/hfwang/dev/projects/LIGHT_RPC/build/src",
+  "command": "/usr/bin/g++   -I/home/hfwang/dev/projects/LIGHT_RPC/src/include -I/home/hfwang/dev/projects/LIGHT_RPC/example -I/home/hfwang/dev/projects/LIGHT_RPC/include  -g   -o CMakeFiles/mprpc.dir/MpRpcChannel.cc.o -c /home/hfwang/dev/projects/LIGHT_RPC/src/MpRpcChannel.cc",
+  "file": "/home/hfwang/dev/projects/LIGHT_RPC/src/MpRpcChannel.cc"
 },
 {
-  "directory": "/home/hfwang/dev/projects/mprpc/build/src",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/mprpc.dir/MpRpcConfig.cc.o -c /home/hfwang/dev/projects/mprpc/src/MpRpcConfig.cc",
-  "file": "/home/hfwang/dev/projects/mprpc/src/MpRpcConfig.cc"
+  "directory": "/home/hfwang/dev/projects/LIGHT_RPC/build/src",
+  "command": "/usr/bin/g++   -I/home/hfwang/dev/projects/LIGHT_RPC/src/include -I/home/hfwang/dev/projects/LIGHT_RPC/example -I/home/hfwang/dev/projects/LIGHT_RPC/include  -g   -o CMakeFiles/mprpc.dir/MpRpcConfig.cc.o -c /home/hfwang/dev/projects/LIGHT_RPC/src/MpRpcConfig.cc",
+  "file": "/home/hfwang/dev/projects/LIGHT_RPC/src/MpRpcConfig.cc"
 },
 {
-  "directory": "/home/hfwang/dev/projects/mprpc/build/src",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/mprpc.dir/MpRpcController.cc.o -c /home/hfwang/dev/projects/mprpc/src/MpRpcController.cc",
-  "file": "/home/hfwang/dev/projects/mprpc/src/MpRpcController.cc"
+  "directory": "/home/hfwang/dev/projects/LIGHT_RPC/build/src",
+  "command": "/usr/bin/g++   -I/home/hfwang/dev/projects/LIGHT_RPC/src/include -I/home/hfwang/dev/projects/LIGHT_RPC/example -I/home/hfwang/dev/projects/LIGHT_RPC/include  -g   -o CMakeFiles/mprpc.dir/MpRpcController.cc.o -c /home/hfwang/dev/projects/LIGHT_RPC/src/MpRpcController.cc",
+  "file": "/home/hfwang/dev/projects/LIGHT_RPC/src/MpRpcController.cc"
 },
 {
-  "directory": "/home/hfwang/dev/projects/mprpc/build/src",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/mprpc.dir/MpRpcLogger.cc.o -c /home/hfwang/dev/projects/mprpc/src/MpRpcLogger.cc",
-  "file": "/home/hfwang/dev/projects/mprpc/src/MpRpcLogger.cc"
+  "directory": "/home/hfwang/dev/projects/LIGHT_RPC/build/src",
+  "command": "/usr/bin/g++   -I/home/hfwang/dev/projects/LIGHT_RPC/src/include -I/home/hfwang/dev/projects/LIGHT_RPC/example -I/home/hfwang/dev/projects/LIGHT_RPC/include  -g   -o CMakeFiles/mprpc.dir/MpRpcLogger.cc.o -c /home/hfwang/dev/projects/LIGHT_RPC/src/MpRpcLogger.cc",
+  "file": "/home/hfwang/dev/projects/LIGHT_RPC/src/MpRpcLogger.cc"
 },
 {
-  "directory": "/home/hfwang/dev/projects/mprpc/build/src",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/mprpc.dir/RpcHeader.pb.cc.o -c /home/hfwang/dev/projects/mprpc/src/RpcHeader.pb.cc",
-  "file": "/home/hfwang/dev/projects/mprpc/src/RpcHeader.pb.cc"
+  "directory": "/home/hfwang/dev/projects/LIGHT_RPC/build/src",
+  "command": "/usr/bin/g++   -I/home/hfwang/dev/projects/LIGHT_RPC/src/include -I/home/hfwang/dev/projects/LIGHT_RPC/example -I/home/hfwang/dev/projects/LIGHT_RPC/include  -g   -o CMakeFiles/mprpc.dir/RpcHeader.pb.cc.o -c /home/hfwang/dev/projects/LIGHT_RPC/src/RpcHeader.pb.cc",
+  "file": "/home/hfwang/dev/projects/LIGHT_RPC/src/RpcHeader.pb.cc"
 },
 {
-  "directory": "/home/hfwang/dev/projects/mprpc/build/src",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/mprpc.dir/RpcProvider.cc.o -c /home/hfwang/dev/projects/mprpc/src/RpcProvider.cc",
-  "file": "/home/hfwang/dev/projects/mprpc/src/RpcProvider.cc"
-},
-{
-  "directory": "/home/hfwang/dev/projects/mprpc/build/src",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/mprpc.dir/ZookeeperUtil.cc.o -c /home/hfwang/dev/projects/mprpc/src/ZookeeperUtil.cc",
-  "file": "/home/hfwang/dev/projects/mprpc/src/ZookeeperUtil.cc"
-},
-{
-  "directory": "/home/hfwang/dev/projects/mprpc/build/example/callee",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/provider.dir/userservice.cc.o -c /home/hfwang/dev/projects/mprpc/example/callee/userservice.cc",
-  "file": "/home/hfwang/dev/projects/mprpc/example/callee/userservice.cc"
-},
-{
-  "directory": "/home/hfwang/dev/projects/mprpc/build/example/callee",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/hfwang/dev/projects/mprpc/example/user.pb.cc",
-  "file": "/home/hfwang/dev/projects/mprpc/example/user.pb.cc"
-},
-{
-  "directory": "/home/hfwang/dev/projects/mprpc/build/example/caller",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/consumer.dir/calluserservice.cc.o -c /home/hfwang/dev/projects/mprpc/example/caller/calluserservice.cc",
-  "file": "/home/hfwang/dev/projects/mprpc/example/caller/calluserservice.cc"
-},
-{
-  "directory": "/home/hfwang/dev/projects/mprpc/build/example/caller",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/hfwang/dev/projects/mprpc/src/include -I/home/hfwang/dev/projects/mprpc/example  -g   -o CMakeFiles/consumer.dir/__/user.pb.cc.o -c /home/hfwang/dev/projects/mprpc/example/user.pb.cc",
-  "file": "/home/hfwang/dev/projects/mprpc/example/user.pb.cc"
+  "directory": "/home/hfwang/dev/projects/LIGHT_RPC/build/src",
+  "command": "/usr/bin/g++   -I/home/hfwang/dev/projects/LIGHT_RPC/src/include -I/home/hfwang/dev/projects/LIGHT_RPC/example -I/home/hfwang/dev/projects/LIGHT_RPC/include  -g   -o CMakeFiles/mprpc.dir/RpcProvider.cc.o -c /home/hfwang/dev/projects/LIGHT_RPC/src/RpcProvider.cc",
+  "file": "/home/hfwang/dev/projects/LIGHT_RPC/src/RpcProvider.cc"
 }
 ]

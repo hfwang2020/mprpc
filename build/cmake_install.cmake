@@ -1,4 +1,4 @@
-# Install script for directory: /home/hfwang/dev/projects/mprpc
+# Install script for directory: /home/hfwang/dev/projects/LIGHT_RPC
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hfwang/dev/projects/mprpc/build/src/cmake_install.cmake")
-  include("/home/hfwang/dev/projects/mprpc/build/example/cmake_install.cmake")
+  include("/home/hfwang/dev/projects/LIGHT_RPC/build/src/cmake_install.cmake")
+  include("/home/hfwang/dev/projects/LIGHT_RPC/build/example/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hfwang/dev/projects/mprpc/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hfwang/dev/projects/LIGHT_RPC/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

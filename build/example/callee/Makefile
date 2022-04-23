@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hfwang/dev/projects/mprpc
+CMAKE_SOURCE_DIR = /home/hfwang/dev/projects/LIGHT_RPC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hfwang/dev/projects/mprpc/build
+CMAKE_BINARY_DIR = /home/hfwang/dev/projects/LIGHT_RPC/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hfwang/dev/projects/mprpc/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hfwang/dev/projects/mprpc/build/CMakeFiles /home/hfwang/dev/projects/mprpc/build/example/callee/CMakeFiles/progress.marks
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f CMakeFiles/Makefile2 example/callee/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hfwang/dev/projects/mprpc/build/CMakeFiles 0
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hfwang/dev/projects/LIGHT_RPC/build/CMakeFiles /home/hfwang/dev/projects/LIGHT_RPC/build/example/callee/CMakeFiles/progress.marks
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f CMakeFiles/Makefile2 example/callee/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hfwang/dev/projects/LIGHT_RPC/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f CMakeFiles/Makefile2 example/callee/clean
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f CMakeFiles/Makefile2 example/callee/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,87 +97,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f CMakeFiles/Makefile2 example/callee/preinstall
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f CMakeFiles/Makefile2 example/callee/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f CMakeFiles/Makefile2 example/callee/preinstall
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(MAKE) -f CMakeFiles/Makefile2 example/callee/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hfwang/dev/projects/mprpc/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-# Convenience name for target.
-example/callee/CMakeFiles/provider.dir/rule:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f CMakeFiles/Makefile2 example/callee/CMakeFiles/provider.dir/rule
-.PHONY : example/callee/CMakeFiles/provider.dir/rule
-
-# Convenience name for target.
-provider: example/callee/CMakeFiles/provider.dir/rule
-
-.PHONY : provider
-
-# fast build rule for target.
-provider/fast:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/build
-.PHONY : provider/fast
-
-__/user.pb.o: __/user.pb.cc.o
-
-.PHONY : __/user.pb.o
-
-# target to build an object file
-__/user.pb.cc.o:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o
-.PHONY : __/user.pb.cc.o
-
-__/user.pb.i: __/user.pb.cc.i
-
-.PHONY : __/user.pb.i
-
-# target to preprocess a source file
-__/user.pb.cc.i:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/user.pb.cc.i
-.PHONY : __/user.pb.cc.i
-
-__/user.pb.s: __/user.pb.cc.s
-
-.PHONY : __/user.pb.s
-
-# target to generate assembly for a file
-__/user.pb.cc.s:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/__/user.pb.cc.s
-.PHONY : __/user.pb.cc.s
-
-userservice.o: userservice.cc.o
-
-.PHONY : userservice.o
-
-# target to build an object file
-userservice.cc.o:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/userservice.cc.o
-.PHONY : userservice.cc.o
-
-userservice.i: userservice.cc.i
-
-.PHONY : userservice.i
-
-# target to preprocess a source file
-userservice.cc.i:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/userservice.cc.i
-.PHONY : userservice.cc.i
-
-userservice.s: userservice.cc.s
-
-.PHONY : userservice.s
-
-# target to generate assembly for a file
-userservice.cc.s:
-	cd /home/hfwang/dev/projects/mprpc/build && $(MAKE) -f example/callee/CMakeFiles/provider.dir/build.make example/callee/CMakeFiles/provider.dir/userservice.cc.s
-.PHONY : userservice.cc.s
 
 # Help Target
 help:
@@ -187,13 +118,6 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... provider"
-	@echo "... __/user.pb.o"
-	@echo "... __/user.pb.i"
-	@echo "... __/user.pb.s"
-	@echo "... userservice.o"
-	@echo "... userservice.i"
-	@echo "... userservice.s"
 .PHONY : help
 
 
@@ -205,6 +129,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hfwang/dev/projects/mprpc/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hfwang/dev/projects/LIGHT_RPC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

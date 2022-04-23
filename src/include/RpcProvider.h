@@ -27,8 +27,7 @@ private:
     void OnMessage(const muduo::net::TcpConnectionPtr&,
         muduo::net::Buffer*,
         muduo::Timestamp);
-
-
+    
     // 服务类型信息 方法表
     struct ServiceInfo {
         google::protobuf::Service* m_service;
@@ -41,6 +40,5 @@ private:
 
     // Closure回调函数
     void sendRpcResponse(const muduo::net::TcpConnectionPtr&, google::protobuf::Message*);
-    
     
 };

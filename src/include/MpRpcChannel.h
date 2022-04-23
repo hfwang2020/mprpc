@@ -14,5 +14,4 @@ public:
         google::protobuf::Message* response,
         google::protobuf::Closure* done);
 
-    
 };
