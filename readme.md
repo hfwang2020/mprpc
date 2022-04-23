@@ -1,4 +1,6 @@
-# !!! mprpc = muduo + protobuf !!!
+# mprpc = muduo + protobuf !!!
+
+依赖库:mprpc muduo_net muduo_base pthread zookeeper_mt
 
 ## rpc框架
 - MpRpcApplication:
