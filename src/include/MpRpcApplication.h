@@ -1,6 +1,11 @@
 #pragma once
 #include "MpRpcConfig.h"
 #include "MpRpcChannel.h"
+#include "MpRpcLogger.h"
+#include "MpRpcChannel.h"
+#include "RpcHeader.pb.h"
+#include "RpcProvider.h"
+#include "ZookeeperUtil.h"
 
 
 class MpRpcApplication {
